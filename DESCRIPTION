@@ -1,0 +1,28 @@
+Package: peutils
+Type: Package
+Title: Utilities Developed by the Predictive Ecology Group
+Version: 0.1.0
+Authors@R: c(
+    person("Eliot J B", "McIntire", email = "eliot.mcintire@canada.ca",
+           role = c("aut", "cre"), comment=c(ORCID = "0000-0002-6914-8316")),
+    person("Alex M", "Chubaty", email = "alex.chubaty@gmail.com",
+           role = c("aut"), comment = c(ORCID = "0000-0001-7146-8135")),
+    person("Her Majesty the Queen in Right of Canada, as represented by the Minister of Natural Resources Canada",
+           role = "cph")
+    )
+Description: Dependency-free utilities developed by the Predictive Ecology Group
+    (<http://predictiveecology.org>). (Do not depend on contributed R packages).
+URL: 
+    http://peutils.predictiveecology.org,
+    https://github.com/PredictiveEcology/peutils
+Date: 2020-05-26
+Encoding: UTF-8
+Language: en-CA
+License: GPL-3
+BugReports: https://github.com/PredictiveEcology/peutils/issues
+ByteCompile: yes
+LazyData: true
+RoxygenNote: 7.1.1
+Suggests: 
+    spelling,
+    testthat
