@@ -5,4 +5,5 @@ These are intended to be _dependency-free_ (i.e., do not import from contributed
 
 <!-- badges: start -->
 [![R build status](https://github.com/PredictiveEcology/peutils/workflows/R-CMD-check/badge.svg)](https://github.com/PredictiveEcology/peutils/actions)
+[![Codecov test coverage](https://codecov.io/gh/PredictiveEcology/peutils/branch/master/graph/badge.svg)](https://codecov.io/gh/PredictiveEcology/peutils?branch=master)
 <!-- badges: end -->

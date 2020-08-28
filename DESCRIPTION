@@ -24,5 +24,6 @@ ByteCompile: yes
 LazyData: true
 RoxygenNote: 7.1.1
 Suggests: 
+    covr,
     spelling,
     testthat
