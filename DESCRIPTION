@@ -1,29 +1,28 @@
-Package: peutils
 Type: Package
+Package: peutils
 Title: Utilities Developed by the Predictive Ecology Group
-Date: 2024-01-31
 Version: 0.1.1
+Date: 2026-01-26
 Authors@R: c(
-    person("Eliot J B", "McIntire", email = "eliot.mcintire@canada.ca",
-           role = c("aut", "cre"), comment=c(ORCID = "0000-0002-6914-8316")),
-    person("Alex M", "Chubaty", email = "achubaty@for-cast.ca",
-           role = c("aut"), comment = c(ORCID = "0000-0001-7146-8135")),
-    person("His Majesty the Queen in Right of Canada, as represented by the Minister of Natural Resources Canada",
-           role = "cph")
-    )
-Description: Dependency-free utilities developed by the Predictive Ecology Group
-    (<http://predictiveecology.org>). (Do not depend on contributed R packages).
-URL: 
-    http://peutils.predictiveecology.org,
-    https://github.com/PredictiveEcology/peutils
-Encoding: UTF-8
-Language: en-CA
+    person("Eliot J B", "McIntire", , "eliot.mcintire@canada.ca", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-6914-8316")),
+    person("Alex M", "Chubaty", , "achubaty@for-cast.ca", role = "aut",
+           comment = c(ORCID = "0000-0001-7146-8135")),
+    person("His Majesty the Queen in Right of Canada, as represented by the Minister of Natural Resources Canada", role = "cph")
+  )
+Description: Dependency-free utilities developed by the Predictive Ecology
+    Group (<http://predictiveecology.org>). (Do not depend on contributed
+    R packages).
 License: GPL-3
+URL: http://peutils.predictiveecology.org,
+    https://github.com/PredictiveEcology/peutils
 BugReports: https://github.com/PredictiveEcology/peutils/issues
-ByteCompile: yes
-LazyData: true
-RoxygenNote: 7.1.1
 Suggests: 
     covr,
     spelling,
     testthat
+ByteCompile: yes
+Encoding: UTF-8
+Language: en-CA
+LazyData: true
+RoxygenNote: 7.3.3
